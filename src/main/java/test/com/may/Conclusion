@@ -1,0 +1,9 @@
+junit4的使用总结：
+@Test
+@Test(timeout=毫秒),@Test(expected=异常类)(两个属性)
+@Ignore
+@RunWith
+@BeforeClass (只执行一次，一般用于加载配置文件)@AfterClass(只执行一次，一般用与资源的释放)　@Before @After
+测试套件@RunWith(Suite.class)
+参数化设置@RunWith(Parameterized.class)
+Spring与Hibernate的整合
